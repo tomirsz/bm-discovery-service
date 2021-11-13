@@ -4,6 +4,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: true
+    service-url: ${SERVICE_URL}
 spring:
   profiles:
     active: ${PROFILE}
