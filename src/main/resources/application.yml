@@ -4,3 +4,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: true
+spring:
+  profiles:
+    active: ${PROFILE}
